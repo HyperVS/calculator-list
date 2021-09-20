@@ -107,8 +107,8 @@ std::string CalcList::toString(unsigned short precision) const{
         
         std::stringstream ss; // Using stringstream to get the previous operation in the string buffer
         std::string nodeData = ""; // Store converted buffer data in this variable
-        int step = counter; // Temprory variable that holds the number of operations to display
-        CalcNode* nodePtr = new CalcNode; // Temprory variable that holds current->next data
+        int step = counter; // Temporary variable that holds the number of operations to display
+        CalcNode* nodePtr = new CalcNode; // Temporary variable that holds current->next data
         nodePtr = current->next;
 
         ss.precision(precision); // Sets precision
